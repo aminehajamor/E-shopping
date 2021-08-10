@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -26,4 +27,71 @@ padding-inline: 14px;
 }
 li a {
     color: #444
+}
+#signin {
+    position: absolute;
+    width: auto;
+    top: 4px;
+    left: 1286px;
+    color: #444;
+    background-color: white;
+    border-color: white;
+    font-size: 18px;
+}
+#singup{
+    position: absolute;
+    width: auto;
+    top: 4px;
+    left: 1350px;
+    color: #444;
+    background-color: white;
+    border-color: white;
+    font-size: 18px;
+}
+.container{
+    position: absolute;
+    top: 143px;
+    left: 1170px;
+    border: solid;
+    height: 471px;
+    width: 299px;
+    border-radius: 26px;
+    box-shadow: 0 5px 10px;
+    border-color: efefef;
+}
+#username{
+    position: absolute;
+    left: 19px;
+    font-size: 17px;
+    top: 121px;
+    color: #444;
+}
+#userinput{
+    position: absolute;
+    top: 121px;
+    left: 112px;
+    border-radius: 5px;
+}
+#password{
+    position: absolute;
+    left: 19px;
+    font-size: 17px;
+    top: 190px;
+    color: #444;
+}
+
+#passinput{
+    position: absolute;
+    top: 190px;
+    left: 112px;
+    border-radius: 5px;
+}
+#loginbutton{
+    position: absolute;
+    top: 245px;
+    left: 227px;
+    width: 62px;
+    border-radius: 18px;
+    border-color: #efefef;
+    box-shadow: 0 3px 4px;
 }
