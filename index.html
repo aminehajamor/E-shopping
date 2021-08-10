@@ -1,50 +1,87 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Welcome to the shop</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header class="header"> 
-            <nav class="navbar navbar-style">
-                
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target ="#thistarget">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="" ><img class="logo navbar-left" src="./images/kisspng-sunglasses-logo-brand-shopping-happy-hour-flyer-5adefc942d6946.796572671524563092186.png" alt="logo"></a>
-                    </div>
-                    <div class="holder">
-                        <div class="collapse navbar-collapse" id="thistarget">
-                        <div class= "onlybuttons">
-                    <ul class="nav navbar-nav navbar-right">
-                        
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Features</a></li>
-                        <li><a href="">Contact us</a></li>
-                        <a href="" ><img class="cart" src="./images/pngwing.com.png" alt="cart picture"></a>
-                        </div>
-                    </ul>
-                </div>
-                </div>
-                    
-   
-            </nav>
-            
-        </header>
 
-        <div class="register">
-        <input type="text" name="" id="">
-        <input type="password" name="" id="">
+<head>
+  <title>Welcome to the shop</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-style">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#thistarget">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href=""><img class="logo navbar-left"
+            src="./images/kisspng-sunglasses-logo-brand-shopping-happy-hour-flyer-5adefc942d6946.796572671524563092186.png"
+            alt="logo"></a>
+      </div>
+      <div class="holder">
+        <div class="collapse navbar-collapse" id="thistarget">
+          <div class="onlybuttons">
+            <ul class="nav navbar-nav navbar-right">
+
+              <li><a href="">Home</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">Contact us</a></li>
+              <a href=""><img class="cart" src="./images/pngwing.com.png" alt="cart picture"></a>
+          </div>
+          </ul>
         </div>
-    
-    </body>
-<script src= 'main.js'></script>
+      </div>
+
+
+    </nav>
+  </header>
+
+  <button id="signin" onclick="document.getElementById('first').style.display='block'" style="width:auto;"
+    class="btn btn-primary btn-lg">Login</button>
+  <div id="first" class="modal">
+      <div class="container">
+        <div class="imgcontainer">
+          <span id="loginclosing" onclick="document.getElementById('first').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+        </div>
+        <label id="username" for="uname"><b>Username</b></label>
+        <input id='userinput' type="text" placeholder="Enter Username" name="uname" required>
+        <label id='password' for="psw"><b>Password</b></label>
+        <input id="passinput" type="password" placeholder="Enter Password" name="psw" required>
+        <button id="loginbutton" type="submit">Login</button>
+        <a href=""><img class="logologin"
+            src="./images/kisspng-sunglasses-logo-brand-shopping-happy-hour-flyer-5adefc942d6946.796572671524563092186.png"
+            alt="logo"></a>
+      </div>
+  </div>
+
+  <button id="singup" onclick="document.getElementById('seconde').style.display='block'" style="width:auto;"
+    class="btn btn-primary btn-lg">Sign Up</button>
+  <div id="seconde" class="modal">
+      <div class="container">
+        <div class="imgcontainer">
+        </div>
+        <label id="username" for="uname"><b>Username</b></label>
+        <input id='userinput' type="text" placeholder="Enter Username" name="uname" required>
+        <label id="email" for="uname"><b>Email</b></label>
+        <input id='emailinput' type="text" placeholder="Enter Email" name="uname" required>
+        <label id='password' for="psw"><b>Password</b></label>
+        <input id="passinput" type="password" placeholder="Enter Password" name="psw" required>
+        
+        <button class="signupbutton" id="loginbutton" type="submit">Sign Up</button>
+        <button id="cancelbutton" type="button" onclick="document.getElementById('seconde').style.display='none'"
+        >Cancel</button>
+        <a href=""><img class="logologin"
+            src="./images/kisspng-sunglasses-logo-brand-shopping-happy-hour-flyer-5adefc942d6946.796572671524563092186.png"
+            alt="logo"></a>
+      </div>
+  </div>
+</body>
+<script src='main.js'></script>
 
 
 
