@@ -74,8 +74,8 @@ li a {
 #singup{
     position: absolute;
     width: auto;
-    top: 4px;
-    left: 1350px;
+    top: -100px;
+    left: 343px;
     color: #444;
     background-color: white;
     border-color: white;
@@ -173,7 +173,7 @@ li a {
     border-radius: 5px;
 }
 .signupbutton{
-    position: relative;
+    position: absolute;
     top: 245px;
     left: 198px;
     width: 62px;
@@ -181,4 +181,19 @@ li a {
     border-color: #efefef;
     box-shadow: 0 3px 4px;
 
+}
+#colomn1{
+    position: absolute;
+    top: 103px;
+    left: 185px;
+}
+#colomn2{
+    position: absolute;
+    top: 103px;
+    left: 600px;
+}
+#colomn3{
+    position: absolute;
+    top: 103px;
+    left: 1015px; 
 }
