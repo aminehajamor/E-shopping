@@ -25,6 +25,39 @@ padding-inline: 14px;
 .icon-bar{
     background: darkorange;
 }
+
+li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: white;
+  }
+  .pic  {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 5px;
+    height: 160px;
+    width: 200px;
+  }
+  .all{
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+  }
+
+
 li a {
     color: #444
 }
