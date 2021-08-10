@@ -89,9 +89,63 @@ li a {
 #loginbutton{
     position: absolute;
     top: 245px;
-    left: 227px;
+    left: 198px;
     width: 62px;
     border-radius: 18px;
     border-color: #efefef;
     box-shadow: 0 3px 4px;
+}
+.logologin{
+    position: absolute;
+    width: 268px;
+    left: 19px;
+    top: 281px;
+}
+#loginclosing{
+    position: relative;
+    width: 18px;
+    height: 23px;
+    top:19px;
+    border: solid;
+    box-shadow: 0 7px 8px;
+    background-color: #444;
+}
+.modal-content{
+    position: absolute;
+    top: 118px;
+    left: 84px;
+    height: 582px;
+    width: 798px;
+}
+#cancelbutton{
+    position: absolute;
+    top: 245px;
+    left: 137px;
+    width: 62px;
+    border-radius: 18px;
+    border-color: #efefef;
+    box-shadow: 0 3px 4px;
+}
+#email{
+    position: absolute;
+    left: 19px;
+    font-size: 17px;
+    top: 52px;
+    color: #444;
+}
+#emailinput{
+    position: absolute;
+    top: 52px;
+    left: 112px;
+    border-radius: 5px;
+}
+.signupbutton{
+    position: relative;
+    top: 245px;
+    left: 198px;
+    width: 62px;
+    border-radius: 18px;
+    border-color: #efefef;
+    box-shadow: 0 3px 4px;
+
 }
